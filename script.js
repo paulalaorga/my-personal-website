@@ -1,4 +1,4 @@
 document.getElementById('openContactForm').addEventListener('click', function() {
-    var form = document.getElementById('contactForm');
+    const form = document.getElementById('openContactForm');
     form.classList.toggle('hidden');
   });
