@@ -12,6 +12,50 @@ body {
   color: #201304;
 }
 
+#contactButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#contactForm {
+  display: none;
+  margin-top: 20px;
+}
+
+#contactForm h2 {
+  margin-bottom: 10px;
+}
+
+#contactForm form {
+  width: 300px;
+}
+
+#contactForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#contactForm input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
 header {
   
   text-align: center;
