@@ -14,7 +14,7 @@ body {
 
 header {
   
-  text-align: right;
+  text-align: center;
   padding: 1rem;
 }
 
@@ -29,7 +29,7 @@ nav ul {
 }
 
 nav li {
-  display: inline;
+  display: contents;
   margin-right: 20rem;
 }
 
