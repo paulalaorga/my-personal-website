@@ -14,7 +14,7 @@ body {
 
 header {
   
-  text-align: center;
+  text-align: right;
   padding: 1rem;
 }
 
@@ -24,21 +24,22 @@ header h1 {
 }
 
 nav ul {
-  list-style: none;
+  text-align: left;
+  list-style: circle;
 }
 
 nav li {
   display: inline;
-  margin-right: 1rem;
+  margin-right: 20rem;
 }
 
 nav a {
-  color: #fff;
+  
   text-decoration: none;
 }
 
 nav a:hover {
-  border-bottom: 2px solid #fff;
+  border-bottom: 8px solid #fff;
 }
 
 main {
